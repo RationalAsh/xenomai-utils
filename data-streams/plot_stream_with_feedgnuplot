@@ -1,0 +1,1 @@
+netcat -u -l 9751 | feedgnuplot --lines --stream 0.1 --title "Stream plot from real time process" --3D --domain
